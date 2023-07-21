@@ -9,26 +9,26 @@
 
 ## The Basics
   - Define your DAG: the right way
-  - DAG Scheduling 101
-  - Cron vs Timedelta
+  - [DAG Scheduling 101](02_02_dag_scheduling.md)
+  - [Cron vs Timedelta](02_03_cron_vs_timedelta.md)
   - Task idempotence and determinism
-  - Backfilling
+  - [Backfilling](02_05_backfilling.md)
 
-## Master your Variables
+## [Master your Variables](astro/dags/dag_03_master_your_variables.py)
   - Variables
   - Properly fetch your Variables
   - The Power of Environment Variables
   - A Few Additional Notes
 
 ## The power of the TaskFlow API
-  - Add data at runtime with templating
-  - Sharing data with XCOMs and limitations
-  - The new way of creating DAGs
-  - XComs with the TaskFlow API
+  - [Add data at runtime with templating](astro/dags/dag_04_01_add_data_at_runtime_with_templating.py)
+  - [Sharing data with XCOMs and limitations](astro/dags/dag_04_02_sharing_data_with_xcoms.py)
+  - [The new way of creating DAGs](astro/dags/dag_04_03_new_way_of_creating_dags.py)
+  - [XComs with the TaskFlow API](astro/dags/dag_04_04_xcoms_with_the_taskflow_api.py)
 
 ## Grouping your tasks
-  - SubDAGs: The Hard Way of Grouping your Tasks
-  - TaskGroups: The Best Way of Grouping your Tasks
+  - [SubDAGs: The Hard Way of Grouping your Tasks](astro/dags/dag_05_01_subdags.py)
+  - [TaskGroups: The Best Way of Grouping your Tasks](astro/dags/dag_05_02_taskgroups.py)
 
 ## Advanced Concepts
   - The (not so) dynamic tasks

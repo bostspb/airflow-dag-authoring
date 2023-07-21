@@ -23,7 +23,7 @@ def _extract_03(name):
     print(name)
 
 
-with DAG("my_dag",
+with DAG(dag_id="dag_03_master_your_variables",
          description="DAG is charge of processing customer data",
          start_date=datetime(2023, 7, 20),
          schedule_interval="@daily",

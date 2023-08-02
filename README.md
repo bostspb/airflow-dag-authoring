@@ -31,10 +31,10 @@
   - [TaskGroups: The Best Way of Grouping your Tasks](astro/dags/dag_05_02_taskgroups.py)
 
 ## Advanced Concepts
-  - The (not so) dynamic tasks
-  - Make your choices with Branching
+  - [The (not so) dynamic tasks](astro/dags/dag_06_01_dynamic_tasks.py)
+  - [Make your choices with Branching](astro/dags/dag_06_02_branching.py)
   - Change task execution with Trigger Rules
-  - Dependencies and Helpers
+  - [Dependencies and Helpers](astro/dags/dag_06_04_dependencies_and_helpers.py)
   - Get the control of your tasks
   - Dealing with resource consuming tasks with Pools
   - Execute critical tasks first, the others after

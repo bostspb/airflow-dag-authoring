@@ -35,10 +35,10 @@
   - [Make your choices with Branching](astro/dags/dag_06_02_branching.py)
   - Change task execution with Trigger Rules
   - [Dependencies and Helpers](astro/dags/dag_06_04_dependencies_and_helpers.py)
-  - Get the control of your tasks
-  - Dealing with resource consuming tasks with Pools
-  - Execute critical tasks first, the others after
-  - What if a task needs the output of its previous execution?
+  - [Get the control of your tasks](astro/dags/dag_06_05_control_tasks.py)
+  - [Dealing with resource consuming tasks with Pools](astro/dags/dag_06_06_pools.py)
+  - [Execute critical tasks first, the others after](astro/dags/dag_06_07_task_priority.py)
+  - [What if a task needs the output of its previous execution?](astro/dags/dag_06_08_depending_on_past.py)
   - Demystifying wait for downstream
   - All you need to know about Sensors
   - Don't get stuck with your Tasks by using Timeouts

@@ -45,12 +45,12 @@
   - 6.12 [How to react in case of failure? or retry?](astro/dags/dag_06_12_callbacks.py)
   - 6.13 [The different (and smart) ways of retrying your tasks](astro/dags/dag_06_13_task_retries.py)
   - 6.14 [Get notified with SLAs](astro/dags/dag_06_14_sla.py)
-  - 6.15 DAG versioning
-  - 6.16 Dynamic DAGs: The two ways!
+  - 6.15 [DAG versioning](astro/dags/dag_06_15_dags_versioning.py)
+  - 6.16 [Dynamic DAGs: The two ways!](astro/dags/dag_06_16_dynamic_dags.py)
 
 ## 7. DAG dependencies
-  - 7.1 Wait for multiple DAGs with the ExternalTaskSensor
-  - 7.2 DAG dependencies with the TriggerDagRunOperator
+  - 7.1 [Wait for multiple DAGs with the ExternalTaskSensor](astro/dags/dag_07_01_external_task_sensor.py)
+  - 7.2 [DAG dependencies with the TriggerDagRunOperator](astro/dags/dag_07_02_trigger_dag_run_operator.py)
 
 ## 8. Well done!
   - 8.1 Quick message for you!
